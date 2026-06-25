@@ -8,4 +8,9 @@ class Circle(object):
 
     Circle class with full Python toolkit support.
     """
-    
+
+    def __init__(self, radius):
+        """Initialize a circle with a given radius"""
+        self.radius = radius #instance var -  unique per instance
+        
+
